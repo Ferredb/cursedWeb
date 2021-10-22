@@ -1,7 +1,6 @@
 body {
-  display: flex;
-  height: 95%;
-  width: 95%;
+  height: auto;
+  width: auto;
   left: 0;
   right: 0;
   top: 0;
@@ -26,14 +25,33 @@ body {
   animation: rainbow 18s ease infinite;
 }
 
+#wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-title{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+  font-size: 6rem;
+}
+
 table,
 td,
 th {
   border: 1px solid black;
+  font-size: 2rem;
+  text-align: center;
 }
 
 table {
   border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
 }
 
 @-webkit-keyframes rainbow {
