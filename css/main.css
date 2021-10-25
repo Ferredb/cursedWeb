@@ -40,7 +40,7 @@ body {
 }
 
 a {
-  color: var(--black)
+  color: var(--black);
 }
 
 #wrap {
@@ -50,7 +50,7 @@ a {
   justify-content: center;
 }
 
-#main-title{
+#main-title {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-align: center;
   font-size: 6rem;
